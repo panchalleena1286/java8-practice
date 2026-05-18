@@ -7,6 +7,9 @@ import java.util.stream.Stream;
 public class Example2 {
 
     public static void main(String[] args){
+
+        //ways to create stream
+
         List<String> list = Arrays.asList("apple", "banana", "cherry");
 
         Stream<String> myStream = list.stream();
